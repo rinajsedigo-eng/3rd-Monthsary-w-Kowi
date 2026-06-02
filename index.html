@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Kowi ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOGIN SCREEN -->
+<div id="loginScreen">
+    <div class="loginBox">
+        <h2>💖 Private Love Site</h2>
+        <p>Enter password to continue</p>
+
+        <input type="password" id="passwordInput" placeholder="Password...">
+        <button onclick="checkPassword()">Enter ❤️</button>
+
+        <p id="error"></p>
+    </div>
+</div>
+
+<!-- MAIN SITE -->
+<div id="siteContent">
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <h1>For My Kowi ❤️</h1>
+        <p>Happy 3rd Monthsary — March 3, 2026</p>
+        <button onclick="toggleMusic()">Play / Pause Music 🎵</button>
+    </header>
+
+    <!-- STORY -->
+    <section>
+        <h2>Our Story 🌷</h2>
+        <p>We met on February 9, 2026… and everything changed after March 3.</p>
+    </section>
+
+    <!-- POLAROID GALLERY -->
+    <section>
+        <h2>Memories 📸</h2>
+
+        <div class="gallery">
+
+            <div class="polaroid">
+                <img src="img1.jpg">
+                <p>Our first moments</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="img2.jpg">
+                <p>Random happy day</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="img3.jpg">
+                <p>My favorite person</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- LETTER -->
+    <section>
+        <h2>Letter 💌</h2>
+
+        <div class="card">
+            <p>
+                Happy 3rd monthsary, Kowi.<br><br>
+                Thank you for being part of my life.<br>
+                I’m really happy it’s you ❤️
+            </p>
+        </div>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
