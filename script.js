@@ -13,7 +13,7 @@ function checkPassword() {
         });
 
     } else {
-        document.getElementById("error").innerText = "Wrong password ❤️";
+        document.getElementById("error").innerText = "I love you ____?";
     }
 }
 
