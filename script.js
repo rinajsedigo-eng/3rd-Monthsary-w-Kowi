@@ -2,7 +2,7 @@ function checkPassword() {
     let pass = document.getElementById("passwordInput").value;
 
     // change this password to anything you want
-    if(pass === "kowi0303") {
+    if(pass === "iloveyou3000") {
         document.getElementById("loginScreen").style.display = "none";
         document.getElementById("siteContent").style.display = "block";
 
